@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  background-color: rgba(114, 175, 255, 0.664);
+}
+
+h2 {
+  margin-bottom: 50px;
+  color: white;
+}
+
+div {
+  width: 825px;
+  margin: 0 auto;
+  border: solid black 4px;
+}
+
+.main-heading {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgb(0, 0, 255);
+}
+
+.price {
+  font-size: 20px;
+}
+
+.small {
+  text-transform: uppercase;
+  color: brown;
+  font-size: 15;
+  font-weight: bold;
+}
+
+.more-info:link {
+  color: green;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.more-info:visited {
+  color: black;
+}
+.more-info:hover {
+  text-decoration: underline; /* You should use "underline" for text decoration */
+  color: crimson;
+}
+.more-info:active {
+  text-decoration: none;
+}
+
+h4 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.products {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 45px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  width: 825px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px;
+  border: solid black 4px;
+}
+
+button:hover {
+  color: #000;
+  background-color: blue;
+  font-weight: bolder;
+}
+
+img,
+p {
+  margin-bottom: 20px;
+}
+
+img,
+h4,
+h5,
+p {
+  margin-left: 30px;
+}
