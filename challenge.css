@@ -1,4 +1,4 @@
-* {
+ * {
   margin: 0;
   padding: 0;
 }
@@ -6,17 +6,35 @@
 body {
   font-family: sans-serif;
   line-height: 1.4;
-  background-color: rgba(114, 175, 255, 0.664);
+  background-color: rgba(114, 175, 255, 0.466);
 }
 
 h2 {
   margin-bottom: 50px;
   color: white;
+  position: relative;
 }
 
-div {
+h2::before {
+  content: "⚡SALE";
+  font-size: 16px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: bolder;
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(66, 0, 0);
+  padding: 5px;
+  top: -20px;
+  left: -30px;
+}
+
+.main-div {
+  margin-top: 20px;
+  margin-left: 200px;
   width: 825px;
-  margin: 0 auto;
   border: solid black 4px;
 }
 
@@ -71,7 +89,7 @@ ul {
   margin-left: 45px;
 }
 
-button {
+.Cart {
   background-color: black;
   color: white;
   text-transform: uppercase;
@@ -83,7 +101,7 @@ button {
   border: solid black 4px;
 }
 
-button:hover {
+.Cart:hover {
   color: #000;
   background-color: blue;
   font-weight: bolder;
@@ -99,4 +117,61 @@ h4,
 h5,
 p {
   margin-left: 30px;
+}
+
+h5 {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.color1 {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 30px;
+  background-color: #000;
+}
+
+.color2 {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: red;
+}
+
+.color3 {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: green;
+}
+
+.color4 {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: yellow;
+}
+
+.color5 {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: purple;
+}
+
+.color6 {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: brown;
 }
